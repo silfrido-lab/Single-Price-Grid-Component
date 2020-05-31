@@ -12,6 +12,13 @@
   color: var(--bright-yellow);
   font-weight: bold;
 }
+@media screen and (min-width: 1200px) {
+  .join__card {
+    padding: 1em 3em;
+    border-radius: 8px 8px 0px 0px;
+    width: 700px;
+  }
+}
 
 .subscription__content {
   background: var(--cyan);
@@ -40,6 +47,12 @@
   color: rgba(255, 254, 254, 0.5);
   margin-bottom: 0;
 }
+@media screen and (min-width: 1200px) {
+  .subscription__content {
+    padding: 1.3em 3em;
+    border-radius: 0 0 0px 8px;
+  }
+}
 
 .why {
   margin-bottom: 5em;
@@ -62,12 +75,24 @@
   font-size: 1em;
   font-weight: 400;
 }
+@media screen and (min-width: 1200px) {
+  .why__content {
+    padding: 1em 3em;
+    border-radius: 0 0 8px 0px;
+  }
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
 
 body {
   margin: 0;
   font-size: 14px;
   background: var(--grayish-blue);
   font-family: "Karla", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -116,6 +141,22 @@ body {
   border-radius: 5px;
   font-size: 1.1em;
   font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+
+  .grid__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

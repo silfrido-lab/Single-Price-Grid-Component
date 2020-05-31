@@ -13,4 +13,11 @@
         color: var(--bright-yellow);
         font-weight: bold;
     }
+    @media screen and (min-width: 1200px) {
+        &__card {
+            padding: 1em 3em;
+            border-radius: 8px 8px 0px 0px;
+            width: 700px;
+        }
+    }
 }

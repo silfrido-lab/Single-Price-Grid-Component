@@ -19,4 +19,10 @@
             font-weight: 400;
         }
     }
+    @media screen and (min-width: 1200px) {
+        &__content {
+            padding: 1em 3em;
+            border-radius: 0 0 8px 0px;
+        }
+    }
 }
