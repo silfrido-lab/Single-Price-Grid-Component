@@ -52,10 +52,15 @@
 .why__title {
   color: var(--white);
 }
+.why__list {
+  padding: 0;
+}
 .why__list li {
   color: var(--white);
   list-style: none;
-  padding: 0;
+  line-height: 1.5;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 body {
