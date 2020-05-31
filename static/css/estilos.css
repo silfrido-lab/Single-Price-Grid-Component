@@ -17,6 +17,10 @@
     padding: 1em 3em;
     border-radius: 8px 8px 0px 0px;
     width: 700px;
+    margin: 0;
+  }
+  .join .u-p {
+    font-size: 1.2em;
   }
 }
 
@@ -146,12 +150,16 @@ body {
 @media screen and (min-width: 1200px) {
   body {
     font-size: 16px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 260px;
   }
 
   .wrapper {
