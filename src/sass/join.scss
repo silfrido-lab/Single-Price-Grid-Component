@@ -1,0 +1,16 @@
+.join {
+    &__card {
+        background: var(--white);
+        padding: 1.6em;
+        margin-top: 5em;
+        border-radius: 8px 8px 0 0;
+    }
+    &__title {
+        color: var(--cyan);
+        font-weight: 700;
+    }
+    &__sub {
+        color: var(--bright-yellow);
+        font-weight: bold;
+    }
+}

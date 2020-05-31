@@ -1,0 +1,19 @@
+.why {
+    margin-bottom: 5em;
+    &__content {
+        border-radius: 0 0 8px 8px;
+        background: var(--cyan-two);
+        padding: 1.6em;
+    }
+    &__title {
+        color: var(--white);
+    }
+    &__list {
+        // border: 1px solid red;
+        li {
+            color: var(--white);
+            list-style: none;
+            padding: 0;
+        }
+    }
+}

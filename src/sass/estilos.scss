@@ -1,0 +1,57 @@
+@import "./join.scss";
+@import "./subscription.scss";
+@import "./why.scss";
+body {
+    margin: 0;
+    font-size: 14px;
+    background: var(--grayish-blue);
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --cyan-two: rgb(37, 201, 198);
+    --bright-yellow: rgb(192, 223, 52);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --white: #ffff;
+}
+
+.wrapper {
+    padding: 0 2em;
+}
+
+.u-h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: .8em;
+}
+
+.u-h2 {
+    font-size: 1.2em;
+    margin-bottom: 1.1em;
+    margin-top: 0;
+}
+
+.u-p {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+.grid {
+    display: grid;
+}
+
+.button {
+    background: var(--bright-yellow);
+    border: none;
+    padding: 1em;
+    width: 100%;
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
